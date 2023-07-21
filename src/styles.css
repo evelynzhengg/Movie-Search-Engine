@@ -1,0 +1,150 @@
+.App {
+  font-family: DM Sans;
+  text-align: center;
+  align-items: center;
+  display:flex;
+}
+.star {
+  width: 190px;
+  height:16px;
+}
+.search-container {
+  width: 441px;
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #979797;
+  margin-right:11px;
+  text-align: left;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+  border: 1px solid #979797;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}
+
+input {
+  width: 441px;
+  height: 58px;
+  
+}
+td.input-selector {
+  color: #979797;
+  font-size: 14px;
+  padding: 11px;
+}
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  font-family:DM Sans;
+  font-size:14px;
+}
+input {
+  width: 113px;
+  height: 48px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  *overflow: hidden;
+}
+
+
+input.checkbox {
+  border: solid;
+  width:14px;
+  height:14px;
+  padding:12px;
+  vertical-align: left;
+  position: relative;
+  bottom: 1px;
+}
+movie-name {
+  border: 1px solid #979797;
+}
+
+input{
+  outline: none;
+  border: none;
+}
+.multi-selector{
+  width: 113;
+  height:48;
+  padding:13px;
+}
+.select-field{
+  border: 1px solid #979797;
+  width:211px;
+  height:48px;
+  padding: 50px;
+  position: relative;
+  text-align: cen
+}
+
+.select-field,.list{
+  background-color: white;
+  padding: 0.3rem;
+
+}
+.list{
+  border:1px solid #979797;
+  width:200px;
+  padding:10px;
+  text-align: left;
+  font-family: DM Sans;
+  font-size:14px;
+  position:absolute;
+}
+
+.down-arrow{
+  font-size: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.2s linear;
+  transform: translate(1500%,-30%);
+}
+.task{
+  display: block;
+  padding-left: 0;
+}
+span{
+  float: right;
+  font-size: 14px;
+  padding-top: 6px;
+  color: #767575;
+}
+
+.show{
+  display: block;
+}
+/* arrow taken from https://www.w3schools.com/howto/howto_css_arrows.asp */
+
+.arrow { 
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
